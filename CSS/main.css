@@ -1,9 +1,50 @@
 body {
-    background-color: rgb(255, 255, 138);
-    color: black;
+    background-image: url('../IMGs/YarnAndHookBackground.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
     font-size: 25px;
+    border: 20px double rgb(112, 196, 224);
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+h1, h2, h3 {
+    color: rgb(0, 84, 84);
+    background-color: rgba(255, 255, 0, 0.397);
+    border: 2px solid yellow;
+    display: inline-block;
+    padding: 10px;
+}
+
+h3 {
+    position: absolute;
+    left: 50px; /* Adjust the value to control how far from the left edge */
+    top: auto; /* Optional: Adjust vertical positioning if needed */
+}
+
+a {
+    color: yellow;
+    background: orange;
+    border: 2px solid darkorange;
+    padding: 5px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+/*the hover stuff*/
+h1:hover, h2:hover, h3:hover {
+    color: purple;
+    background-color: rgba(255, 218, 185, 0.384);
+    border: 2px solid peachpuff;
+    display: inline-block;
+    padding: 10px;
+}
+
+a:hover {
+    color: lightblue;;
+    background: teal;
+    border: 2px solid rgb(13, 110, 117);
+    padding: 5px;
+    font-size: 40px;
+    margin: 10px;
 }
