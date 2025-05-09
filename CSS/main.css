@@ -17,8 +17,16 @@ h1, h2, h3 {
 
 h3 {
     position: absolute;
-    left: 50px; /* Adjust the value to control how far from the left edge */
-    top: auto; /* Optional: Adjust vertical positioning if needed */
+    left: 50px;
+    top: auto;
+}
+
+.shortcuts {
+    left: 300px;
+}
+
+.shortcutGroups {
+    left: 500px;
 }
 
 a {
