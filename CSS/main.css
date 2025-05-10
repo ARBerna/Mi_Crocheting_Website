@@ -42,8 +42,8 @@ h3 {
 }
 
 a {
-    color: yellow;
-    background: rgba(255, 166, 0, 0.445);
+    color: darkorange;
+    background: rgba(255, 175, 27, 0.479);
     border: 2px solid darkorange;
     padding: 5px;
     font-size: 40px;
