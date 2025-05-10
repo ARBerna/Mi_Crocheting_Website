@@ -21,6 +21,18 @@ h3 {
     top: auto;
 }
 
+#aboutMeText {
+    color:darkblue;
+    background-color:rgba(173, 216, 230, 0.432);
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 10px;
+    text-align:left;
+    margin-left: 450px;
+    margin-right: 200px;
+    font-size: 30px;
+}
+
 .shortcuts {
     left: 300px;
 }
@@ -31,7 +43,7 @@ h3 {
 
 a {
     color: yellow;
-    background: orange;
+    background: rgba(255, 166, 0, 0.445);
     border: 2px solid darkorange;
     padding: 5px;
     font-size: 40px;
@@ -44,15 +56,16 @@ h1:hover, h2:hover, h3:hover {
     color: purple;
     background-color: rgba(255, 218, 185, 0.384);
     border: 2px solid peachpuff;
-    display: inline-block;
-    padding: 10px;
 }
 
 a:hover {
     color: lightblue;;
-    background: teal;
+    background: rgba(0, 128, 128, 0.418);
     border: 2px solid rgb(13, 110, 117);
-    padding: 5px;
-    font-size: 40px;
-    margin: 10px;
+}
+
+#aboutMeText:hover {
+    color:darkgreen;
+    background-color:rgba(173, 230, 176, 0.432);
+    border: 2px solid rgb(1, 153, 1);
 }
