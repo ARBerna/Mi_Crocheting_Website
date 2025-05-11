@@ -21,7 +21,7 @@ h3 {
     top: auto;
 }
 
-#aboutMeText {
+p {
     color:darkblue;
     background-color:rgba(173, 216, 230, 0.432);
     border: 2px solid blue;
@@ -33,6 +33,12 @@ h3 {
     font-size: 30px;
 }
 
+#thankYouText {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
 .shortcuts {
     left: 300px;
 }
@@ -41,8 +47,17 @@ h3 {
     left: 500px;
 }
 
+.patternLinks {
+    font-size: 30px;
+    color: blueviolet;
+    background-color: rgba(255, 106, 230, 0.363);
+    border: 2px solid blueviolet;
+    display: inline-block;
+    padding: 10px;
+}
+
 a {
-    color: darkorange;
+    color: darkred;
     background: rgba(255, 175, 27, 0.479);
     border: 2px solid darkorange;
     padding: 5px;
@@ -64,8 +79,14 @@ a:hover {
     border: 2px solid rgb(13, 110, 117);
 }
 
-#aboutMeText:hover {
+p:hover {
     color:darkgreen;
     background-color:rgba(173, 230, 176, 0.432);
     border: 2px solid rgb(1, 153, 1);
+}
+
+.patternLinks:hover {
+    color:crimson;
+    background-color: rgba(255, 43, 43, 0.199);
+    border: 2px solid crimson;
 }
