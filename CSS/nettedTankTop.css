@@ -1,10 +1,10 @@
 body {
-    background-image: url('../IMGs/SqushmallowBackgroundIMG.png');
+    background-image: url('../IMGs/NettedTankTopBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    border: 20px double goldenrod;
+    border: 20px double darkslategray;
 }
 
 h1 {
@@ -20,9 +20,9 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: aquamarine;
-    background-color: rgba(0, 0, 255, 0.336);
-    border: 2px solid blue;
+    color: rgb(255, 212, 219);
+    background-color: rgba(162, 0, 255, 0.336);
+    border: 2px solid purple;
     display: inline-block;
     padding: 10px;
     margin-left: 200px;
@@ -40,9 +40,9 @@ p {
 
 a {
     font-size: 30px;
-    color:darkorange;
-    background-color: rgba(255, 255, 0, 0.322);
-    border: 2px solid darkorange;
+    color:darkblue;
+    background-color: rgba(0, 132, 255, 0.322);
+    border: 2px solid darkblue;
     display: inline-block;
     padding: 10px;
 }
@@ -50,12 +50,13 @@ a {
 img {
     width: 500px;
     height: auto;
-    border: 10px double goldenrod;
+    border: 10px double darkslategray;
 }
 
 /*hover stuff*/
 a:hover {
-    background-color: rgba(255, 0, 0, 0.322);
-    color: white;
+    background-color: rgba(0, 110, 24, 0.322);
+    color: lightgreen;
+    border: 2px solid lightgreen;
     text-decoration: none;
 }
