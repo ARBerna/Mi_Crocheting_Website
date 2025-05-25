@@ -53,9 +53,15 @@ img {
     border: 10px double goldenrod;
 }
 
+input[type = "checkbox"] {
+    accent-color: purple;
+    width: 25px;
+    height: 25px;
+}
+
 /*hover stuff*/
 a:hover {
     background-color: rgba(255, 0, 0, 0.322);
-    color: white;
-    text-decoration: none;
+    color: red;
+    border: 2px solid red;
 }

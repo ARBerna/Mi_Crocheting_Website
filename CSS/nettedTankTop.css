@@ -53,10 +53,15 @@ img {
     border: 10px double darkslategray;
 }
 
+input[type = "checkbox"] {
+    accent-color: lightskyblue;
+    width: 25px;
+    height: 25px;
+}
+
 /*hover stuff*/
 a:hover {
     background-color: rgba(0, 110, 24, 0.322);
     color: lightgreen;
     border: 2px solid lightgreen;
-    text-decoration: none;
 }
