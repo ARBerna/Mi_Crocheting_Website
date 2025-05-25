@@ -62,6 +62,26 @@ img {
     padding: 10px;
 }
 
+.aboutMeContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.aboutMeContainer img {
+    width: 500px;
+    height: auto;
+    border: 10px double rgb(112, 196, 224);
+    margin-left:450px;
+    margin-right: 0;
+    margin-top: 125px;
+}
+
+.aboutMeContainer p {
+    margin-left:0;
+    margin-right: 50px;
+}
+
 a {
     color: darkred;
     background: rgba(255, 175, 27, 0.479);
