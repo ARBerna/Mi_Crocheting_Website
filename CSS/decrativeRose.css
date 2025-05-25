@@ -1,10 +1,11 @@
 body {
-    background-image: url('../IMGs/NettedTankTopBackground.png');
+    background-image: url('../IMGs/DecrativeRoseBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    border: 20px double darkslategray;
+    border: 20px double green;
+    color: rgb(29, 36, 16)
 }
 
 h1 {
@@ -20,9 +21,9 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: rgb(255, 212, 219);
-    background-color: rgba(162, 0, 255, 0.336);
-    border: 2px solid purple;
+    color: green;
+    background-color: rgba(255, 238, 0, 0.418);
+    border: 2px solid gold;
     display: inline-block;
     padding: 10px;
     margin-left: 200px;
@@ -32,7 +33,6 @@ h3 {
 p {
     padding-left: 300px;
     padding-right: 300px;
-    color: rgb(0, 42, 70);
     font-size: 25px;
     font-weight: bold;
     text-align: left;
@@ -40,9 +40,9 @@ p {
 
 a {
     font-size: 30px;
-    color:darkblue;
-    background-color: rgba(0, 132, 255, 0.322);
-    border: 2px solid darkblue;
+    color:darkred;
+    background-color: rgba(255, 0, 0, 0.322);
+    border: 2px solid darkred;
     display: inline-block;
     padding: 10px;
 }
@@ -50,18 +50,18 @@ a {
 img {
     width: 500px;
     height: auto;
-    border: 10px double darkslategray;
+    border: 10px double green;
 }
 
 input[type = "checkbox"] {
-    accent-color: lightskyblue;
+    accent-color: gold;
     width: 25px;
     height: 25px;
 }
 
 /*hover stuff*/
 a:hover {
-    background-color: rgba(0, 110, 24, 0.322);
-    color: lightgreen;
-    border: 2px solid lightgreen;
+    background-color: rgba(255, 251, 0, 0.322);
+    color: rgb(153, 110, 0);
+    border: 2px solid rgb(153, 110, 0);
 }
