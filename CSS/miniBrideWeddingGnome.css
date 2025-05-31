@@ -1,0 +1,67 @@
+body {
+    background-image: url('../IMGs/MiniBrideWeddingGnomeBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border: 20px double gold;
+    color: rgb(139, 100, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a {
+    font-size: 30px;
+    color:rgb(0, 255, 213);
+    background-color: rgba(0, 128, 128, 0.356);
+    border: 2px solid rgb(0, 255, 213);
+    display: inline-block;
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border: 10px double gold;
+}
+
+input[type = "checkbox"] {
+    accent-color: black;
+    width: 25px;
+    height: 25px;
+}
+
+/*hover stuff*/
+a:hover {
+    background-color: rgba(255, 105, 180, 0.473);
+    color: rgb(255, 0, 128);
+    border: 2px solid rgb(255, 0, 128);
+}
