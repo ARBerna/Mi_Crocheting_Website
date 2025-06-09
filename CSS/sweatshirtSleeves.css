@@ -1,0 +1,124 @@
+body {
+    background-image: url('../IMGs/NettedTankTopBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border: 20px double darkslategray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(255, 212, 219);
+    background-color: rgba(162, 0, 255, 0.336);
+    border: 2px solid purple;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgb(0, 42, 70);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a {
+    font-size: 30px;
+    color:darkblue;
+    background-color: rgba(0, 132, 255, 0.322);
+    border: 2px solid darkblue;
+    display: inline-block;
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border: 10px double darkslategray;
+}
+
+input[type = "checkbox"] {
+    accent-color: lightskyblue;
+    width: 25px;
+    height: 25px;
+}
+
+/*hover stuff*/
+a:hover {
+    background-color: rgba(0, 110, 24, 0.322);
+    color: lightgreen;
+    border: 2px solid lightgreen;
+}
+
+/* Tablet styles */
+@media (max-width: 1000px) and (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2, h3 {
+        font-size: 1.2em;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    p {
+        font-size: 1.1em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    img {
+        width: 80vw;
+        max-width: 350px;
+    }
+    a {
+        font-size: 22px;
+        padding: 8px;
+    }
+}
+
+/* Phone styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.3em;
+        padding: 6px;
+    }
+    h2, h3 {
+        font-size: 1em;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    p {
+        font-size: 1em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    img {
+        width: 95vw;
+        max-width: 220px;
+    }
+    a {
+        font-size: 16px;
+        padding: 5px;
+        margin: 4px 0;
+        display: block;
+    }
+}
