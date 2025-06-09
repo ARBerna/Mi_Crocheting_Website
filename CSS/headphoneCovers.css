@@ -1,0 +1,124 @@
+body {
+    background-image: url('../IMGs/HeadphoneCoversBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border: 20px double rgb(255, 115, 0);
+    color: rgb(0, 127, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    color: hotpink;
+    background-color: rgba(0, 160, 27, 0.534);
+    border: 2px solid lightgreen;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a {
+    font-size: 30px;
+    color:hotpink;
+    background-color: rgba(110, 0, 77, 0.322);
+    border: 2px solid hotpink;
+    display: inline-block;
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border: 10px double rgb(255, 115, 0);
+}
+
+input[type = "checkbox"] {
+    accent-color: yellow;
+    width: 25px;
+    height: 25px;
+}
+
+/*hover stuff*/
+a:hover {
+    background-color: rgba(11, 0, 110, 0.322);
+    color: white;
+    border: 2px solid navy;
+}
+
+/* Tablet styles */
+@media (max-width: 1000px) and (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2, h3 {
+        font-size: 1.2em;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    p {
+        font-size: 1.1em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    img {
+        width: 80vw;
+        max-width: 350px;
+    }
+    a {
+        font-size: 22px;
+        padding: 8px;
+    }
+}
+
+/* Phone styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.3em;
+        padding: 6px;
+    }
+    h2, h3 {
+        font-size: 1em;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    p {
+        font-size: 1em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    img {
+        width: 95vw;
+        max-width: 220px;
+    }
+    a {
+        font-size: 16px;
+        padding: 5px;
+        margin: 4px 0;
+        display: block;
+    }
+}
