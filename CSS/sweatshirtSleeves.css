@@ -1,10 +1,11 @@
 body {
-    background-image: url('../IMGs/NettedTankTopBackground.png');
+    background-image: url('../IMGs/SweatshirtSleevesBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    border: 20px double darkslategray;
+    border: 20px double rgb(255, 126, 147);
+    color: rgb(0, 71, 83)
 }
 
 h1 {
@@ -20,9 +21,9 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: rgb(255, 212, 219);
-    background-color: rgba(162, 0, 255, 0.336);
-    border: 2px solid purple;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 221, 0.336);
+    border: 2px solid rgb(255, 0, 200);
     display: inline-block;
     padding: 10px;
     margin-left: 200px;
@@ -32,7 +33,7 @@ h3 {
 p {
     padding-left: 300px;
     padding-right: 300px;
-    color: rgb(0, 42, 70);
+    color: rgb(0, 71, 83);
     font-size: 25px;
     font-weight: bold;
     text-align: left;
@@ -40,9 +41,9 @@ p {
 
 a {
     font-size: 30px;
-    color:darkblue;
-    background-color: rgba(0, 132, 255, 0.322);
-    border: 2px solid darkblue;
+    color:rgb(0, 83, 25);
+    background-color: rgba(123, 255, 0, 0.322);
+    border: 2px solid rgb(14, 117, 0);
     display: inline-block;
     padding: 10px;
 }
@@ -50,7 +51,7 @@ a {
 img {
     width: 500px;
     height: auto;
-    border: 10px double darkslategray;
+    border: 10px double rgb(255, 126, 147);
 }
 
 input[type = "checkbox"] {
@@ -61,9 +62,9 @@ input[type = "checkbox"] {
 
 /*hover stuff*/
 a:hover {
-    background-color: rgba(0, 110, 24, 0.322);
-    color: lightgreen;
-    border: 2px solid lightgreen;
+    background-color: rgba(255, 0, 0, 0.507);
+    color: rgb(218, 208, 208);
+    border: 2px solid red;
 }
 
 /* Tablet styles */
