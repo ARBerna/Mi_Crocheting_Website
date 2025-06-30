@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    border: 20px double darkred;
+    border: 20px double skyblue;
     color:hotpink;
     font-family: 'Lato', sans-serif;
 }
@@ -55,7 +55,7 @@ a {
 img {
     width: 500px;
     height: auto;
-    border: 10px double darkred;
+    border: 10px double skyblue;
 }
 
 input[type = "checkbox"] {
