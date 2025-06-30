@@ -1,11 +1,11 @@
 body {
-    background-image: url('../IMGs/SwifferCoverBackground.png');
+    background-image: url('../IMGs/TowelHolderBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     border: 20px double darkred;
-    color:rgb(0, 255, 255);
+    color:hotpink;
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,9 +26,9 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: navy;
-    background-color: rgba(160, 123, 0, 0.404);
-    border: 2px solid darkgoldenrod;
+    color: white;
+    background-color: rgba(0, 88, 160, 0.404);
+    border: 2px solid rgb(11, 28, 184);
     display: inline-block;
     padding: 10px;
     margin-left: 200px;
@@ -45,9 +45,9 @@ p {
 
 a {
     font-size: 30px;
-    color:lightgreen;
-    background-color: rgba(0, 110, 24, 0.322);
-    border: 2px solid lightgreen;
+    color:skyblue;
+    background-color: rgba(0, 17, 73, 0.493);
+    border: 2px solid skyblue;
     display: inline-block;
     padding: 10px;
 }
@@ -59,16 +59,16 @@ img {
 }
 
 input[type = "checkbox"] {
-    accent-color: teal;
+    accent-color: lightgreen;
     width: 25px;
     height: 25px;
 }
 
 /*hover stuff*/
 a:hover {
-    background-color: rgba(110, 0, 0, 0.322);
-    color: rgb(255, 172, 142);
-    border: 2px solid rgb(255, 172, 142);
+    background-color: rgba(0, 110, 15, 0.322);
+    color: green;
+    border: 2px solid green;
 }
 
 /* Tablet styles */
