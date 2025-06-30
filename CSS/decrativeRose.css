@@ -5,7 +5,12 @@ body {
     background-position: center;
     text-align: center;
     border: 20px double green;
-    color: rgb(29, 36, 16)
+    color: rgb(29, 36, 16);
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Pacifico', cursive;
 }
 
 h1 {
