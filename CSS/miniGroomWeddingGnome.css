@@ -6,6 +6,11 @@ body {
     text-align: center;
     border: 20px double black;
     color: rgb(180, 120, 46);
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Pacifico', cursive;
 }
 
 h1 {
