@@ -1,11 +1,11 @@
 body {
-    background-image: url('../IMGs/TowelHolderBackground.png');
+    background-image: url('../IMGs/CrochetSnakeBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    border: 20px double skyblue;
-    color:hotpink;
+    border: 20px double darkgreen;
+    color:black;
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,9 +26,9 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: white;
-    background-color: rgba(0, 88, 160, 0.404);
-    border: 2px solid rgb(11, 28, 184);
+    color: rgb(10, 87, 0);
+    background-color: rgba(0, 18, 185, 0.295);
+    border: 2px solid blue;
     display: inline-block;
     padding: 10px;
     margin-left: 200px;
@@ -45,9 +45,9 @@ p {
 
 a {
     font-size: 30px;
-    color:skyblue;
-    background-color: rgba(0, 17, 73, 0.493);
-    border: 2px solid skyblue;
+    color:yellow;
+    background-color: rgba(73, 72, 0, 0.493);
+    border: 2px solid yellow;
     display: inline-block;
     padding: 10px;
 }
@@ -55,20 +55,20 @@ a {
 img {
     width: 500px;
     height: auto;
-    border: 10px double skyblue;
+    border: 10px double darkgreen;
 }
 
 input[type = "checkbox"] {
-    accent-color: lightgreen;
+    accent-color: red;
     width: 25px;
     height: 25px;
 }
 
 /*hover stuff*/
 a:hover {
-    background-color: rgba(0, 110, 15, 0.322);
-    color: green;
-    border: 2px solid green;
+    background-color: rgba(110, 0, 0, 0.322);
+    color: red;
+    border: 2px solid red;
 }
 
 /* Tablet styles */
